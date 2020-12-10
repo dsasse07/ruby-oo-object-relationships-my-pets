@@ -22,5 +22,5 @@ end
 
 
 danny = Owner.new
-binding.pry
-0
+# binding.pry
+# 0
