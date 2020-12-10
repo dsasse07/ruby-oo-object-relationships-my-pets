@@ -21,6 +21,6 @@ class Cat
 end
 
 
-danny = Owner.new
-# binding.pry
-# 0
+
+
+0

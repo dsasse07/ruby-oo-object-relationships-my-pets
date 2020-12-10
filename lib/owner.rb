@@ -16,7 +16,7 @@ class Owner
   end
 
   def say_species
-    "I am a #{self.species}"
+    "I am a #{self.species}."
   end
 
   def self.all
@@ -31,8 +31,25 @@ class Owner
     self.all.clear
   end
 
+  # def cats
+  #   binding.pry
+  #   cats = []                             #Refactored below
+  #   Cat.all.each do |cat|
+  #     if cat.owner.name == self.name
+  #       cats << cat
+  #     end
+  #   end
+  #   cats
+  # end
+
+  def cats
+    Cat.all.select do |cat|   
+      cat.owner == self
+    end
+  end
+
 end
 
-darien = Owner.new("Darien")
-binding.pry
+# darien = Owner.new("Darien")
+# danny = Owner.new("Danny")
 0
