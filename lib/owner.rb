@@ -49,7 +49,3 @@ class Owner
   end
 
 end
-
-# darien = Owner.new("Darien")
-# danny = Owner.new("Danny")
-0
