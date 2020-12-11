@@ -15,5 +15,3 @@ dog2 = Dog.new("Snuffles", danny)
 dog3 = Dog.new("Charley", darien)
 
 
-binding.pry
-0
